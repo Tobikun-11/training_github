@@ -12,6 +12,7 @@ void nhap(int a[][100], int m, int n)
   }
 void xuat(int a[][100], int m, int n)
   {
+	
   	int i,j;
   	printf("\nMa tran A la:");
 	for (i=0;i<m;i++)

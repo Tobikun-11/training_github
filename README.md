@@ -1,12 +1,12 @@
-# training_github
-
 I.  Giới thiệu Git:
+
     * Tóm tắt:
       - Git dùng để quản lý phiên bản code, rất thuận lợi trong làm việc nhóm thậm chí làm 1 mình.
         Git có nhiều trang hỗ trợ như: github.com, bitbucket.com, ... không phải git là chỉ riêng trang github, git giống như là 1 chuẩn
         quản lý phiên bản, ngoài ra còn có SVN là 1 chuẩn khác để quản lý phiên bản (theo cách hiểu của t).
-        
+
 II. Các khái niệm trong git:
+
     + Repository (kho): là thư mục. Thư mục trên github.com gọi là remote (xa) repository (kho), còn ở máy tính là local repository.
     + Branch (nhánh): ví dụ t làm 1 phần trên 1 nhánh, m rẽ sang nhánh khác làm chức năng khác, sau này hộp lại (merge)
     + Remote (máy chủ): khỏi giải thích, lát ví dụ
@@ -19,9 +19,10 @@ II. Các khái niệm trong git:
     + push (đẩy): đưa code lên remote repository, nghĩa là đẩy lên cho tụi kia kéo về
     + Collaborators: làm việc nhóm với git như nào:
       + ai tạo repos thì vào đây: https://github.com/<tên_tài_khoản>/<tên_repos>/settings/collaboration
-      + gõ email github thành viên vào, thằng được mời làm chung đồng ý thì làm thôi.
-      
+      + gõ email github thành viên vào, thằng được mời làm chung đồng ý thì làm thôi.      
+
 III. Ví dụ thực tế:
+
     + Tải git về cài vào máy: https://git-scm.com/
     + Tiếp là phải tạo 1 remote repository (thư mục trên github.com) đó là chỗ lúc push code sẽ lên, repository đó có 1 đừờng dẫn, đuôi là *.git.
       ví du: https://github.com/Haosvit/QLPV.git. Việc tạo này phải tạo trên trang github.com, lên đó tìm nút tạo ("New repository").
@@ -37,9 +38,10 @@ III. Ví dụ thực tế:
               trong đó cái trong dấu ngoặc kép là ghi chú của việc commit, cái này bắt buộc nhập
       PUSH: cũng trên bash, gõ: git push origin master
     + Khi ai đó push gì mới lên thì ở máy lấy về bằng cách: gõ trên bash tại thư mục đã khởi tạo git (git init): git pull origin master
-    + Hết, luyện tập bằng cách tạo 1 repo trống trên github cá nhân.
+    + Hết, luyện tập bằng cách tạo 1 repo trống trên github cá nhân.    
     
 IV. Git GUI:
+
     Git GUI cho phép dùng git với giao diện, trực quan, bấm nút khỏi gõ lệnh.
     + SourceTree: miễn phí và lợi hại: https://www.sourcetreeapp.com
     + ToroiseGit: cũng miễn phí, ai dùng svn quen thì TortoiseGit thôi: https://tortoisegit.org/
